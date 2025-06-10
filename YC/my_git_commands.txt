@@ -1,0 +1,112 @@
+    1  passwd yc
+    2  exit
+    3  passwd yc
+    4  ls
+    5  logout
+    6  ls
+    7  logout
+    8  who
+    9  sudo -i
+   10  logout
+   11  exit
+   12  ls
+   13  clear
+   14  logout
+   15  ls
+   16  sudo apt update
+   17  apt list --upgradable
+   18  sudo usermod -aG sudo yc
+   19  su yc
+   20  sudo apt update
+   21  sudo app inatall git
+   22  app apt insatall git
+   23  apt install git
+   24  git -v
+   25  git --v
+   26  git -version
+   27  git --version
+   28  git clone https://github.com/ImStudent02/DEMO.git
+   29  ls
+   30  cd DEMO
+   31  ls
+   32  touch hi.txt
+   33  cat hi.txt
+   34  nano hi.txt
+   35  cat hi.txt
+   36  git diff
+   37  git add hi.txt
+   38  git add .
+   39  git diff
+   40  git commit -m
+   41  git commit -m "hi.txt added"
+   42  git config --globle -email imstudentasyc@gmail.com
+   43  git config --globle user.email "imstudentasyc@gmail.com"
+   44  git config --global user.email "imstudentasyc@gmail.com"
+   45  git config --global user.name "ImStudent02"
+   46  git commit -m "hi.txt added"
+   47  git diff
+   48  git push
+   49  git diff
+   50  nano hi.txt
+   51  git diff
+   52  git commit -m "Update file hi.txt"
+   53  git add .
+   54  git commit -m "Update file hi.txt"
+   55  git push
+   56  ls
+   57  git clone https://github.com/pradip123491/devops.git
+   58  ls
+   59  cd devops
+   60  ls
+   61  mkdir YC
+   62  ls
+   63  touch YC/yc.txt
+   64  nano YC/yc.txt
+   65  git commit
+   66  git add .
+   67  git commit
+   68  git push
+   69  ls
+   70  git branch -a
+   71  ls
+   72  touch YC/yc1.txt
+   73  cat >> YC/yc1.txt
+   74  ls YC/
+   75  cat YC/yc1.txt
+   76  git commit
+   77  git commit -m "yc1"
+   78  git add .
+   79  git commit -m "yc1"
+   80  git checkout devops_yc
+   81  git checkout -b devops_yc
+   82  ls
+   83  ls ../
+   84  git branch -a
+   85  git branch -r
+   86  git push -u origin devops_yc
+   87  git branch -a
+   88  cd ../
+   89  ls
+   90  git checkout devops_yc
+   91  cd devops
+   92  ls
+   93  git checkout devops_yc
+   94  git branch
+   95  ls
+   96  cd YC
+   97  touch branchyc.txt
+   98  cat >> branchyc.txt
+   99  cat branchyc.txt
+  100  nano branchyc.txt
+  101  git add .
+  102  git commit -m "branch update"
+  103  git push
+  104  git checkout main
+  105  git push
+  106  git checkout main
+  107  git checkout
+  108  git pull origin main
+  109  git merge devops_yc
+  110  git push origin main
+  111  git log
+  112  history > my_git_commands.txt
